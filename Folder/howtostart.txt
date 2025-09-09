@@ -1,0 +1,10 @@
+1)go to cmd
+2)select Frontend folder path    (it will be like this->  C:\Users\tomar\Downloads\Dashboard\Folder\Frontend>)
+2.1)write-> (npm i)   for-> ( todownload dependencies)
+2.2)npm run dev       for->(start frontend)
+3)1)go to new cmd    
+3)select Backend Folder Path    ( it will be like this   -> C:\Users\tomar\Downloads\Dashboard\Folder\Backend>)
+3.1)write-> (npm i)   for-> ( todownload dependencies)
+3.2)nodemon index.js  for->(to run Backend Server)
+
+4) project will run now
