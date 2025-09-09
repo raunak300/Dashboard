@@ -12,9 +12,8 @@ const Nav = () => {
 
         {/* Links (optional) */}
         <div className="space-x-6 hidden md:flex">
-          <a href="#" className="hover:text-blue-400">Home</a>
-          <a href="#" className="hover:text-blue-400">Features</a>
-          <a href="#" className="hover:text-blue-400">Contact</a>
+          
+          <a href="https://portfolio-raunak-tomars-projects.vercel.app/" className="hover:text-blue-400">Contact</a>
         </div>
       </div>
     </nav>

@@ -6,6 +6,8 @@ const MComponent = ({ data1, data2 }) => {
   const [region, setRegion] = useState(Array(9).fill(false));
   const [selectedtypes1, setselectedtypes1] = useState("");
   const [selectedtypes2, setselectedtypes2] = useState("");
+  const [name1, setname1] = useState("Dashboard Region-1")
+  const [name2, setname2] = useState("Dashboard Region-2")
 
   const updateRegion = (index, value) => {
     const temp = [...region];
@@ -22,9 +24,10 @@ const MComponent = ({ data1, data2 }) => {
         <div className="flex items-center gap-4 p-4 bg-white rounded-lg shadow border border-gray-200">
           <input
             type="text"
-            value="Dashboard Region-1"
-            readOnly
+            value={name1}
+          
             className="px-3 py-2 rounded-md border border-gray-300 bg-gray-50 font-semibold text-gray-700"
+            onChange={(e)=>setname1(e.target.value)}
           />
           <label htmlFor="dataSelect1" className="text-sm font-medium text-gray-600">
             Select Data:
@@ -69,9 +72,10 @@ const MComponent = ({ data1, data2 }) => {
         <div className="flex items-center gap-4 p-4 bg-white rounded-lg shadow border border-gray-200">
           <input
             type="text"
-            value="Dashboard Region-2"
-            readOnly
+            value={name2}
+          
             className="px-3 py-2 rounded-md border border-gray-300 bg-gray-50 font-semibold text-gray-700"
+            onChange={(e)=>setname2(e.target.value)}
           />
           <label htmlFor="dataSelect2" className="text-sm font-medium text-gray-600">
             Select Data:
@@ -110,7 +114,7 @@ const MComponent = ({ data1, data2 }) => {
         </div>
       </div>
 
-      {/* Add Data Section */}
+      {/* Add Data Section
       <div className="flex flex-col space-y-4">
         <h2 className="text-lg font-bold text-gray-800">➕ Add Data to Visualize</h2>
         <div className="flex flex-row justify-around gap-6">
@@ -130,7 +134,7 @@ const MComponent = ({ data1, data2 }) => {
             <FilledRegion updateRegion={() => updateRegion(8, false)} />
           )}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
