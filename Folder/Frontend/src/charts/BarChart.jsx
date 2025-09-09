@@ -10,7 +10,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const Barchart = ({ fields = [], data1 = [], data2 = [], selecteddata }) => {
+const BarChart = ({ fields = [], data1 = [], data2 = [], selecteddata }) => {
   // pick dataset based on selecteddata
   const dataset = selecteddata === "data1" ? data1 : data2;
 
@@ -48,4 +48,4 @@ const Barchart = ({ fields = [], data1 = [], data2 = [], selecteddata }) => {
   );
 };
 
-export default Barchart;
+export default BarChart;

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import PieChart from "../charts/PieChart";
 import BarChart from "../charts/Barchart";
-import LineChart from "../charts/LineChart";
 
 const FilledRegion = ({ updateRegion, data1, data2, selecteddata }) => {
   const [selected, setSelected] = useState(false);
@@ -111,14 +110,7 @@ const FilledRegion = ({ updateRegion, data1, data2, selecteddata }) => {
                 selecteddata={selecteddata}
               />
             )}
-            {/* {chosen === "Line Chart" && (
-              <LineChart
-                fields={selectedChart}
-                data1={data1}
-                data2={data2}
-                selecteddata={selecteddata}
-              />
-            )} */}
+           
           </motion.div>
         )}
 
