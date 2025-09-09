@@ -1,0 +1,92 @@
+[
+  {
+    "day": 1,
+    "cpuUsage": 65,
+    "memoryUsage": 72,
+    "networkIn": 320,
+    "networkOut": 280,
+    "storageUsed": 450,
+    "activeUsers": 120
+  },
+  {
+    "day": 2,
+    "cpuUsage": 70,
+    "memoryUsage": 75,
+    "networkIn": 300,
+    "networkOut": 260,
+    "storageUsed": 455,
+    "activeUsers": 140
+  },
+  {
+    "day": 3,
+    "cpuUsage": 62,
+    "memoryUsage": 68,
+    "networkIn": 340,
+    "networkOut": 300,
+    "storageUsed": 460,
+    "activeUsers": 135
+  },
+  {
+    "day": 4,
+    "cpuUsage": 58,
+    "memoryUsage": 64,
+    "networkIn": 310,
+    "networkOut": 270,
+    "storageUsed": 462,
+    "activeUsers": 128
+  },
+  {
+    "day": 5,
+    "cpuUsage": 72,
+    "memoryUsage": 77,
+    "networkIn": 350,
+    "networkOut": 330,
+    "storageUsed": 470,
+    "activeUsers": 150
+  },
+  {
+    "day": 6,
+    "cpuUsage": 68,
+    "memoryUsage": 70,
+    "networkIn": 325,
+    "networkOut": 295,
+    "storageUsed": 472,
+    "activeUsers": 142
+  },
+  {
+    "day": 7,
+    "cpuUsage": 64,
+    "memoryUsage": 69,
+    "networkIn": 310,
+    "networkOut": 280,
+    "storageUsed": 475,
+    "activeUsers": 138
+  },
+  {
+    "day": 8,
+    "cpuUsage": 75,
+    "memoryUsage": 80,
+    "networkIn": 360,
+    "networkOut": 340,
+    "storageUsed": 480,
+    "activeUsers": 155
+  },
+  {
+    "day": 9,
+    "cpuUsage": 71,
+    "memoryUsage": 74,
+    "networkIn": 330,
+    "networkOut": 300,
+    "storageUsed": 485,
+    "activeUsers": 148
+  },
+  {
+    "day": 10,
+    "cpuUsage": 67,
+    "memoryUsage": 72,
+    "networkIn": 320,
+    "networkOut": 290,
+    "storageUsed": 490,
+    "activeUsers": 145
+  }
+]
