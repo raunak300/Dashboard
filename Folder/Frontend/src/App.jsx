@@ -15,7 +15,7 @@ function App() {
 
     const fetchData=async()=>{
     try{
-      const response=await axios.get('http://localhost:3000/getdata')
+      const response=await axios.get('https://dashboard-134u.onrender.com/getdata')
       if(response.status===200){
         setdata1(response.data.data1)
         setdata2(response.data.data2)

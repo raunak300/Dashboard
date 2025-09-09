@@ -8,7 +8,7 @@ app.use(express.json());
 const cors=require('cors')
 
 app.use(cors({
-    origin:'http://localhost:5173'
+    origin:'https://dashboard-git-main-raunak-tomars-projects.vercel.app/'
 
 }))
 
