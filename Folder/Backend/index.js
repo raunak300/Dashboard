@@ -8,8 +8,10 @@ app.use(express.json());
 const cors=require('cors')
 
 app.use(cors({
-    origin:'https://dashboard-git-main-raunak-tomars-projects.vercel.app/'
-
+  origin: [
+    'http://localhost:5173', // vite dev server
+    'https://dashboard-git-main-raunak-tomars-projects.vercel.app'
+  ]
 }))
 
 
