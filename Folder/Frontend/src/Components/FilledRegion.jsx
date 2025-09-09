@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import PieChart from "../charts/PieChart";
-import BarChart from "../charts/Barchart";
+import BarLines from "../charts/BarLines"
 
 const FilledRegion = ({ updateRegion, data1, data2, selecteddata }) => {
   const [selected, setSelected] = useState(false);
@@ -103,7 +103,7 @@ const FilledRegion = ({ updateRegion, data1, data2, selecteddata }) => {
               />
             )}
             {chosen === "Bar Graph" && (
-              <BarChart
+              <BarLines
                 fields={selectedChart}
                 data1={data1}
                 data2={data2}
