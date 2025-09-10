@@ -9,7 +9,7 @@ const cors=require('cors')
 
 app.use(cors({
   origin: 
-    'https://dashboard-git-main-raunak-tomars-projects.vercel.app'
+    'https://dashboard-iota-ashen.vercel.app/'
   
 }))
 
