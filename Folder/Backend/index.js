@@ -8,7 +8,7 @@ app.use(express.json());
 const cors=require('cors')
 
 app.use(cors({
-  origin: 'https://dashboard-iota-ashen.vercel.app/',
+  origin: 'https://dashboard-iota-ashen.vercel.app',
   methods: ['GET','POST'],
   
   
